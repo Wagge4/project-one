@@ -1,22 +1,42 @@
 body{
-    background-color:#ffffff;
-    
+    background-color:#000000;
+    font-family: 'Times New Roman', sans-serif;
 }
 
 /* Navbar */
 ul{
-    text-align: center;
     list-style-type: none;
+    text-align:center;
+    font-size:100%;
 }
 li {
-    display:inline;
     border-bottom:none;
+    display:inline;
 }
 
 .active{
-    border-bottom:1px solid #3a3a3a;
+    border-bottom:1px solid #000000;
+}
+
+a:visited{
+    text-decoration: none;
+    color:#000000;
+}
+
+a:hover{
+    border-bottom:1px solid #000000;
 }
 
 nav a{
     text-decoration: none;
+    color:#ffffff;
+}
+
+#menu{
+   font-size:150%;
+}
+
+.money{
+    height:600px;
+    width:25%;
 }
