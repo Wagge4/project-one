@@ -1,5 +1,7 @@
 body{
-    background-color:#000000;
+    background-image: url('../images/cash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Times New Roman', sans-serif;
     color:#ffffff;
 }
@@ -40,7 +42,7 @@ nav a{
 }
 
 .money-image{
-    height:600px;
+    height:620px;
     width:100%;
     float:left;
 }
@@ -58,3 +60,11 @@ nav a{
 #social-medias-header{
     text-align: center;
 }
+
+#footer-div {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:15%;   /* Height of the footer */
+    background:#6cf;
+ }
