@@ -61,6 +61,17 @@ nav a{
    letter-spacing: 2px;
 }
 
+#home-icon{
+    float:left;
+    list-style-type: none;
+    text-align:center;
+    font-size:100%;
+}
+
+.nav-link{
+    float:right;
+}
+
 .money-image{
     height:620px;
     width:100%;
@@ -68,6 +79,10 @@ nav a{
 }
 
 /* Middle Section */
+
+.data-header{
+    text-decoration: underline;
+}
 #test{
     width: 20%;
     position: relative;
@@ -88,6 +103,18 @@ nav a{
     background-color: rgba(0, 0, 0, .7);
     text-align: center;
     border:#000000 solid 5px;
+}
+
+/* Gallery */
+
+#images{
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#images > img{
+    width:100%;
 }
 
 /*Footer*/
