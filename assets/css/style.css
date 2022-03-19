@@ -9,7 +9,7 @@
 body{
     font-family: 'Times New Roman', sans-serif;
     background-color:#ffffff;
-    color:#ffffff;
+    color:#000000;
 }
 
 /* Navbar */
@@ -20,17 +20,11 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background-color:black;
+    background-color: #000000;
     text-align: center;
     vertical-align: middle;
     line-height: 10%;
     font-size: 20px;
-}
-
-ul{
-    list-style-type: none;
-    text-align:center;
-    font-size:100%;
 }
 
 .active{
@@ -62,12 +56,14 @@ nav a{
     list-style-type: none;
     text-align:center;
     font-size:100%;
+    color: #ffffff;
 }
 
 .nav-link{
-    float: right;
     border-bottom:none;
     display:inline;
+    margin-right: 20px;
+    float: right; 
 }
 
 .money-image{
@@ -81,11 +77,11 @@ nav a{
 .data-header{
     text-decoration: underline;
 }
-#test{
+#left-box{
     width: 20%;
     position: relative;
     left: 25%;
-    top: 150px;
+    top: 175px;
     float: left;
     background-color: rgba(0, 0, 0, .7);
     text-align: center;
@@ -96,7 +92,7 @@ nav a{
     width: 20%;
     position: relative;
     right: 25%;
-    top: 150px;
+    top: 175px;
     float: right;
     background-color: rgba(0, 0, 0, .7);
     text-align: center;
@@ -113,6 +109,32 @@ nav a{
 
 #images > img{
     width:100%;
+}
+
+/*Service page*/
+
+#service-image1{
+    margin-top: 4%;
+    float: left;
+}
+
+#service-image2{
+    margin-top: 4%;
+    float: right;
+}
+
+#service-box1{
+    float: right;
+    width: 20%;
+    position: relative;
+    right: 25%;
+    top: 175px;
+    text-align: center;
+    border:#000000 solid 5px;
+}
+
+span{
+    font-weight: bold;
 }
 
 /*Footer*/
