@@ -124,8 +124,8 @@ nav a{
     float: right;
     width: 20%;
     position: relative;
-    right: 25%;
-    top: 175px;
+    right: 20%;
+    top: 250px;
     text-align: center;
     border:#000000 solid 5px;
 }
@@ -200,6 +200,21 @@ span{
     #index-body{
         background-repeat: repeat;
     }
+
+    #about-image{
+        width:100%;
+        position: relative;
+    }
+    #about-box{
+        float: right;
+        width: 100%;
+        position: absolute;
+        top:35%;
+        left:0;
+        text-align: center;
+        border:#000000 solid 5px;
+        background-color: rgba(255, 255, 255, .7);
+    }
 }
 /* For medium screens from 1015px and down*/
 @media screen and (max-width: 1015px) {
@@ -216,6 +231,22 @@ span{
         top: 550px;
         float: left;
     }
+
+    #about-image{
+        width:100%;
+        position: relative;
+    }
+
+    #about-box{
+        float: right;
+        width: 100%;
+        position: absolute;
+        top:15%;
+        left:0;
+        text-align: center;
+        border:#000000 solid 5px;
+        background-color: rgba(255, 255, 255, .2);
+    }
 }
 
 /* For medium screen sizes from 950px and down */
@@ -230,7 +261,7 @@ span{
     }
 }
 
-/* For smaller screen sizes 800px and down*/
+/* For small screen sizes 800px and down*/
 @media screen and (max-width: 800px) {
     #menu{
         font-size: 100%;
@@ -244,9 +275,9 @@ span{
         letter-spacing: 10px;
         font-size:20px; 
     }
-}
+} 
 
-/*For small screen sizes 450px and down*/
+/*For smaller screen sizes 450px and down*/
 @media screen and (max-width: 450px) {
     #social-media-header{
         display: none;
@@ -265,8 +296,18 @@ span{
     }
 }
 
-/*For small screen sizes 351px and down*/
+/*For the smallest screen sizes 351px and down*/
 @media screen and (max-width: 351px) {
+    #right-box{
+        position: relative;
+        top: 10rem;
+        height: 21em;
+        left: 25%;
+    }
+}
+
+/*For screen sizes 349-350px*/
+@media screen and (max-width: 350px) (min-width: 349px) {
     #right-box{
         position: relative;
         top: 10rem;
