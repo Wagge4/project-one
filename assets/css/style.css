@@ -191,6 +191,7 @@ span{
     text-align: center;
     vertical-align: middle;
     line-height: 15%;
+    color: #ffffff;
  }
 
  /*Media Queries*/
@@ -277,6 +278,13 @@ span{
     }
 } 
 
+/*For screen sizes 600px and down*/
+@media screen and (max-width: 600px){
+    #menu{
+        font-size:50%;
+    }
+}
+
 /*For smaller screen sizes 450px and down*/
 @media screen and (max-width: 450px) {
     #social-media-header{
@@ -298,16 +306,6 @@ span{
 
 /*For the smallest screen sizes 351px and down*/
 @media screen and (max-width: 351px) {
-    #right-box{
-        position: relative;
-        top: 10rem;
-        height: 21em;
-        left: 25%;
-    }
-}
-
-/*For screen sizes 349-350px*/
-@media screen and (max-width: 350px) (min-width: 349px) {
     #right-box{
         position: relative;
         top: 10rem;
