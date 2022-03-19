@@ -208,7 +208,6 @@ span{
 @media screen and (max-width: 800px) {
     #menu{
         font-size: 100%;
-        vertical-align: middle;
     }
     .nav-link{
         margin-top: 3%;
@@ -219,3 +218,9 @@ span{
         display: inline;
     }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    
+  }
