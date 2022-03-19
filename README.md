@@ -41,3 +41,16 @@ The left div includes text that explains what the website is all about, while th
 <h1>Testing</h1>
 There has been a lot of testing done to the website, and it is now working as intended, after lots of bug fixing.
 I faced a lot of bugs regarding GitHub. For example when I one day tried to push the save to GitHub and I got an error, and the solution to it was to restart the workspace. I thought that was a strange bug.
+There was also a bug where I could not open port 8000 to see my live progress in a browser, all it said was "Failed to expose". I called the tutor for help after trying for a long time to solve it myself, both by help from Google and from my Slack friends. It turned out that it was just GitPod playing games for some reason, and all I had to do was to add "8000" to my existing URL and it worked. That was also strange to me.
+Of course I had a lot of problems with missing one letter here and there, which broke the page, but that's fixed with a quick overview of the code so those problems are no big deal.
+
+<h2>Validator Testing</h2>
+HTML:
+<li>There were no errors when testing the website using the official W3C validator.</li>
+CSS:
+<li>There were no errors when testing the website using the official Jigsaw validator.</li>
+
+
+<h1>Deployment</h1>
+This website was deplyoed to GitHub Pages. These are the steps I used to do so:
+<li> </li>
