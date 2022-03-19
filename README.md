@@ -53,4 +53,20 @@ CSS:
 
 <h1>Deployment</h1>
 This website was deplyoed to GitHub Pages. These are the steps I used to do so:
-<li> </li>
+<li>When in the GitHub repository you press the Settings tab</li>
+<li>When in the settings tab, you press "Pages" on the left side of the page.</li>
+<li>When you have pressed pages you click on "Branch", and after this you select main. </li>
+<li>When this is done you should get a box with a green background that says the following: "Your site is published at: https://[username].github.io/[repository-name]/</li>
+
+The live link to my website can be found here: https://wagge4.github.io/project-one/index.html
+
+
+<h1>Credits</h1>
+
+I as a developer struggles to keep every line of code in my head, and this is where tutorials, other coders and helping websites come in handy.
+I have used help from the following sources in my development:
+<li>w3schools.com</li>
+<li>stackoverflow.com</li>
+<li>My Slack friend Eric Olsson</li>
+All the images I use are from:
+<li>pexels.com</li>
