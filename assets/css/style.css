@@ -247,6 +247,7 @@ span{
         left:50%;
         top: 50%;
     }
+}
 
 /*For small screen sizes 450px and down*/
 @media screen and (max-width: 450px) {
