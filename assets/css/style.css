@@ -216,6 +216,25 @@ span{
         border:#000000 solid 5px;
         background-color: rgba(255, 255, 255, .7);
     }
+    #service-box1{
+        float: right;
+        width: 20%;
+        position: relative;
+        right: 20%;
+        top: 195px;
+        text-align: center;
+        border:#000000 solid 5px;
+    }
+
+    #service-box2{
+        float: left;
+        width: 20%;
+        position: relative;
+        left: 20%;
+        top: 195px;
+        text-align: center;
+        border:#000000 solid 5px;
+    }
 }
 /* For medium screens from 1015px and down*/
 @media screen and (max-width: 1015px) {
@@ -234,7 +253,7 @@ span{
     }
 
     #about-image{
-        width:100%;
+        width:105%;
         position: relative;
     }
 
@@ -242,12 +261,28 @@ span{
         float: right;
         width: 100%;
         position: absolute;
-        top:15%;
         left:0;
         text-align: center;
-        border:#000000 solid 5px;
-        background-color: rgba(255, 255, 255, .2);
+        border:#000000 solid 5px
+        background-color rgba(255, 255, 255, .2);
     }
+    #service-box1{
+        width: 50%;
+        position: relative;
+        right: 20%;
+        top: 0px;
+        text-align: center;
+        border:#000000 solid 5px;
+    }
+
+#service-box2{
+    width: 50%;
+    position: relative;
+    right: 20%;
+    top: 0px;
+    text-align: center;
+    border:#000000 solid 5px;
+}
 }
 
 /* For medium screen sizes from 950px and down */
@@ -283,14 +318,14 @@ span{
     #menu{
         font-size:50%;
     }
+
+        #social-media-header{
+            display: none;
+        }
 }
 
 /*For smaller screen sizes 450px and down*/
-@media screen and (max-width: 450px) {
-    #social-media-header{
-        display: none;
-    }
-
+@media screen and (max-width: 450px){
     #left-box{
         position: relative;
         top: 135px;
