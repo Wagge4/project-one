@@ -187,20 +187,35 @@ span{
 
  /*Media Queries*/
 
- /*For larger to medium screens from 1200px and down */
-@media screen and (max-width: 1200px) {
-
+ /*For larger to medium screens from 1400px and down */
+@media screen and (max-width: 1400px) {
+    #index-body{
+        background-repeat: repeat;
+    }
 }
 
 
 /* For medium screen sizes from 950px and down */
 @media screen and (max-width: 950px) {
-
+    .social-medias li{
+        letter-spacing: 50px;
+        font-size:40px;
+        display: inline;
+    }
 }
-
-
 
 /* For smaller screen sizes 800px and down*/
 @media screen and (max-width: 800px) {
-
+    #menu{
+        font-size: 100%;
+        vertical-align: middle;
+    }
+    .nav-link{
+        margin-top: 3%;
+    }
+    .social-medias li{
+        letter-spacing: 10px;
+        font-size:20px;
+        display: inline;
+    }
 }
