@@ -38,4 +38,6 @@ The left div includes text that explains what the website is all about, while th
 <li>When the site has grown in popularity I'm looking to make a signup page where people can sign up with a username and password, and have our own friendly community where the users can discuss ideas of their own with each other.</li>
 
 
-<h1> </h1>
+<h1>Testing</h1>
+There has been a lot of testing done to the website, and it is now working as intended, after lots of bug fixing.
+I faced a lot of bugs regarding GitHub. For example when I one day tried to push the save to GitHub and I got an error, and the solution to it was to restart the workspace. I thought that was a strange bug.
