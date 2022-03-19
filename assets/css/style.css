@@ -25,6 +25,7 @@ body{
     vertical-align: middle;
     line-height: 10%;
     font-size: 20px;
+    z-index: 1;
 }
 
 .active{
@@ -76,6 +77,7 @@ nav a{
 
 .data-header{
     text-decoration: underline;
+
 }
 #left-box{
     width: 20%;
@@ -99,6 +101,7 @@ nav a{
     border:#000000 solid 5px;
 }
 
+/*Make the email link white instead of blue to make it more clear*/
 #email{
     color: #ffffff;
 }
@@ -197,7 +200,16 @@ span{
         background-repeat: repeat;
     }
 }
-
+/* For medium screens from 1015px and down*/
+@media screen and (max-width: 1015px) {
+    #right-box{
+        width: 40%;
+        position: relative;
+        left: 25%;
+        top: 550px;
+        float: left;
+    }
+}
 
 /* For medium screen sizes from 950px and down */
 @media screen and (max-width: 950px) {
@@ -212,19 +224,33 @@ span{
 @media screen and (max-width: 800px) {
     #menu{
         font-size: 100%;
+
     }
     .nav-link{
         margin-top: 3%;
+
     }
     .social-medias li{
         letter-spacing: 10px;
-        font-size:20px;
-      
+        font-size:20px; 
+    }
+
+    #left-box{
+        float: none;
+        position: relative;
+    }
+
+    #right-box{
+        float: none;
+        margin-bottom: 50%;
+        position: relative;
+        left:50%;
+        top: 50%;
+    }
+
+/*For small screen sizes 450px and down*/
+@media screen and (max-width: 450px) {
+    #social-media-header{
+        display: none;
     }
 }
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-    /* CSS */
-    
-  }
