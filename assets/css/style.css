@@ -251,6 +251,11 @@ span{
         display: none;
     }
 
+    #left-box{
+        position: relative;
+        top: 135px;
+    }
+
     #right-box{
         position: relative;
         top: 650px;
