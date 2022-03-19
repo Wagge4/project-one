@@ -111,15 +111,25 @@ nav a{
     width:100%;
 }
 
+/*About page*/
+
+#about-box{
+    float: right;
+    width: 20%;
+    position: relative;
+    right: 25%;
+    top: 175px;
+    text-align: center;
+    border:#000000 solid 5px;
+}
+
 /*Service page*/
 
-#service-image1{
-    margin-top: 100%;
+#service-image1 {
     float: left;
 }
 
 #service-image2{
-    margin-top: 7%;
     float: right;
 }
 
@@ -128,6 +138,16 @@ nav a{
     width: 20%;
     position: relative;
     right: 25%;
+    top: 175px;
+    text-align: center;
+    border:#000000 solid 5px;
+}
+
+#service-box2{
+    float: left;
+    width: 20%;
+    position: relative;
+    left: 25%;
     top: 175px;
     text-align: center;
     border:#000000 solid 5px;
@@ -164,3 +184,23 @@ span{
     vertical-align: middle;
     line-height: 15%;
  }
+
+ /*Media Queries*/
+
+ /*For larger to medium screens from 1200px and down */
+@media screen and (max-width: 1200px) {
+
+}
+
+
+/* For medium screen sizes from 950px and down */
+@media screen and (max-width: 950px) {
+
+}
+
+
+
+/* For smaller screen sizes 800px and down*/
+@media screen and (max-width: 800px) {
+
+}
