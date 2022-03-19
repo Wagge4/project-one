@@ -73,20 +73,20 @@ I have used help from the following sources in my development:
 All the images I use are from:
 <li>pexels.com</li>
 I will list each and every picture from Pexels that I have used down below:
-Bakcground Image: 
-https://www.pexels.com/photo/monochrome-photograph-of-coins-5364945/
+Background Image: 
+<li>https://www.pexels.com/photo/monochrome-photograph-of-coins-5364945/</li> 
 Image on the about page:
-https://www.pexels.com/photo/collecting-sea-shells-on-the-beach-9008501/
+<li>https://www.pexels.com/photo/collecting-sea-shells-on-the-beach-9008501/</li> 
 Images on the services page:
-https://www.pexels.com/photo/close-up-of-human-hand-327540/
-https://www.pexels.com/photo/accountant-counting-money-210990/
+<li>https://www.pexels.com/photo/close-up-of-human-hand-327540/</li> 
+<li>https://www.pexels.com/photo/accountant-counting-money-210990/</li> 
 Images in the gallery:
-https://www.pexels.com/photo/ripple-etehereum-and-bitcoin-and-micro-sdhc-card-844124/
-https://www.pexels.com/photo/woman-typing-on-laptop-7112/
-https://www.pexels.com/photo/man-carrying-backpack-taking-photo-using-dslr-camera-1214566/
-https://www.pexels.com/photo/photo-of-man-cleaning-his-car-1740919/
-https://www.pexels.com/photo/person-holding-mug-and-mobile-phone-6802052/
-https://www.pexels.com/photo/people-playing-cards-7330159/
-https://www.pexels.com/photo/person-holding-iphone-showing-social-networks-folder-607812/
-https://www.pexels.com/photo/internet-technology-display-business-3227986/
-https://www.pexels.com/photo/person-holding-sale-card-5650015/
+<li>https://www.pexels.com/photo/ripple-etehereum-and-bitcoin-and-micro-sdhc-card-844124/</li> 
+<li>https://www.pexels.com/photo/woman-typing-on-laptop-7112/</li> 
+<li>https://www.pexels.com/photo/man-carrying-backpack-taking-photo-using-dslr-camera-1214566/</li> 
+<li>https://www.pexels.com/photo/photo-of-man-cleaning-his-car-1740919/</li> 
+<li>https://www.pexels.com/photo/person-holding-mug-and-mobile-phone-6802052/</li> 
+<li>https://www.pexels.com/photo/people-playing-cards-7330159/</li> 
+<li>https://www.pexels.com/photo/person-holding-iphone-showing-social-networks-folder-607812/</li> 
+<li>https://www.pexels.com/photo/internet-technology-display-business-3227986/</li> 
+<li>https://www.pexels.com/photo/person-holding-sale-card-5650015/</li>  
