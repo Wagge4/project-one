@@ -1,5 +1,3 @@
-![Different responsive views on my page](assets/images/responsive.png)
-
 Money Makers Paradise
 Money Makers Paradise is a website that is made in hopes to raise interest for the topic money.
  The site targets everyone that feel
@@ -41,12 +39,14 @@ The left div includes text that explains what the website is all about, while th
 
 
 ***Testing***
+
 There has been a lot of testing done to the website, and it is now working as intended, after lots of bug fixing.
 I faced a lot of bugs regarding GitHub. For example when I one day tried to push the save to GitHub and I got an error, and the solution to it was to restart the workspace. I thought that was a strange bug.
 There was also a bug where I could not open port 8000 to see my live progress in a browser, all it said was "Failed to expose". I called the tutor for help after trying for a long time to solve it myself, both by help from Google and from my Slack friends. It turned out that it was just GitPod playing games for some reason, and all I had to do was to add "8000" to my existing URL and it worked. That was also strange to me.
 Of course I had a lot of problems with missing one letter here and there, which broke the page, but that's fixed with a quick overview of the code so those problems are no big deal.
 
 I have tested, and tested, and tested and finally I got a good responsive design that works on all devices. The website looks good on both a small phone, a little bigger tablet, a laptop and a big computer screen.
+![Image of the responsive design](assets/images/responsive.png)
 
 **Validator Testing**
 Lighthouse Test:
@@ -57,7 +57,7 @@ HTML:
 ![Image of no error in HTML validator](assets/images/html-validator.png)
 CSS:
 - There were no errors when testing the website using the official Jigsaw validator.
-***Bifoga bild på inga error***
+![Image of no error in CSS validator](assets/images/css-validator.png)
 
 
 **Deployment**
