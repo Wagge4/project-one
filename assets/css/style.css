@@ -192,6 +192,7 @@ span{
     vertical-align: middle;
     line-height: 15%;
     color: #ffffff;
+    margin-top: 500px;
  }
 
  /*Media Queries*/
@@ -205,13 +206,14 @@ span{
     #about-image{
         width:100%;
         position: relative;
+        right:4px;
     }
     #about-box{
         float: right;
         width: 100%;
-        position: absolute;
+        position: relative;
         top:35%;
-        left:0;
+        left:4px;
         text-align: center;
         border:#000000 solid 5px;
         background-color: rgba(255, 255, 255, .7);
@@ -236,13 +238,93 @@ span{
         border:#000000 solid 5px;
     }
 }
+
+/*For screens 1700px and down*/
+@media screen and (max-width: 1700px){
+    #service-box1{
+        float: right;
+        width: 20%;
+        position: relative;
+        right:15%;
+        top: 195px;
+        text-align: center;
+        border:#000000 solid 5px;
+    }
+
+    #service-box2{
+        float: left;
+        width: 20%;
+        position: relative;
+        left: 15%;
+        top: 195px;
+        text-align: center;
+        border:#000000 solid 5px;
+    }
+}
+
+/*For screens 1571px and down*/
+@media screen and (max-width: 1571px){
+    #service-box1{
+        float: right;
+        width: 20%;
+        position: relative;
+        right: 10%;
+        top: 195px;
+        text-align: center;
+        border:#000000 solid 5px;
+    }
+
+    #service-box2{
+        float: left;
+        width: 20%;
+        position: relative;
+        left: 10%;
+        top: 195px;
+        text-align: center;
+        border:#000000 solid 5px;
+    }
+}
+
+/*For screens 1461px and down*/
+@media screen and (max-width: 1461px){
+    #service-image1{
+        width:100%;
+        position: absolute;
+    }
+
+    #service-image2{
+        width:100%;
+        position: absolute;
+        margin-top:65%;
+    }
+
+    #service-box1{
+        width: 50%;
+        position: relative;
+        right: 36%;
+        top: 195px;
+        text-align: center;
+        border:#000000 solid 5px;
+        background-color: rgba(255, 255, 255, .7);
+    }
+
+    #service-box2{
+        width: 50%;
+        position: relative;
+        left: 10%;
+        margin-top: 45%;
+        text-align: center;
+        border:#000000 solid 5px;
+        background-color: rgba(255, 255, 255, .7);
+    }
+}
+
 /* For medium screens from 1015px and down*/
 @media screen and (max-width: 1015px) {
     #left-box{
         width: 47%;
         top:60px;
     }
-
 
     #right-box{
         width: 47%;
@@ -255,34 +337,17 @@ span{
     #about-image{
         width:105%;
         position: relative;
+        right: 4px;
     }
 
     #about-box{
         float: right;
         width: 100%;
         position: absolute;
-        left:0;
         text-align: center;
         border:#000000 solid 5px
         background-color rgba(255, 255, 255, .2);
     }
-    #service-box1{
-        width: 50%;
-        position: relative;
-        right: 20%;
-        top: 0px;
-        text-align: center;
-        border:#000000 solid 5px;
-    }
-
-#service-box2{
-    width: 50%;
-    position: relative;
-    right: 20%;
-    top: 0px;
-    text-align: center;
-    border:#000000 solid 5px;
-}
 }
 
 /* For medium screen sizes from 950px and down */
@@ -294,6 +359,26 @@ span{
     }
     #images{
         column-count: 1;
+    }
+
+    #service-box1{
+        width: 50%;
+        position: relative;
+        right: 36%;
+        top: 110px;
+        text-align: center;
+        border:#000000 solid 5px;
+        background-color: rgba(255, 255, 255, .7);
+    }
+
+    #service-box2{
+        width: 50%;
+        position: relative;
+        left: 10%;
+        margin-top: 25%;
+        text-align: center;
+        border:#000000 solid 5px;
+        background-color: rgba(255, 255, 255, .7);
     }
 }
 
@@ -313,6 +398,29 @@ span{
     }
 } 
 
+/* For small screen sizes 700px and down*/
+@media screen and (max-width: 700px){
+    #service-box1{
+        width: 50%;
+        position: relative;
+        right: 36%;
+        top: 70px;
+        text-align: center;
+        border:#000000 solid 5px;
+        background-color: rgba(255, 255, 255, .7);
+    }
+
+    #service-box2{
+        width: 50%;
+        position: relative;
+        left: 10%;
+        margin-top: 10%;
+        text-align: center;
+        border:#000000 solid 5px;
+        background-color: rgba(255, 255, 255, .7);
+    }
+}
+
 /*For screen sizes 600px and down*/
 @media screen and (max-width: 600px){
     #menu{
@@ -321,6 +429,26 @@ span{
 
         #social-media-header{
             display: none;
+        }
+        #service-box1{
+            width: 100%;
+            position: relative;
+            left: 15px;
+            top: 70px;
+            text-align: center;
+            border:#000000 solid 5px;
+            background-color: rgba(255, 255, 255, .7);
+            z-index: 1;
+        }
+    
+        #service-box2{
+            width: 100%;
+            position: relative;
+            left: 3px;
+            margin-top: 10%;
+            text-align: center;
+            border:#000000 solid 5px;
+            background-color: rgba(255, 255, 255, .7);
         }
 }
 
@@ -336,6 +464,11 @@ span{
         top: 600px;
         height: 21em;
         right: 25%;
+    }
+    #about-box{
+        margin-bottom: 15%;
+        top: 35px;
+        background-color:rgba(255, 255, 255, .4)
     }
 }
 
