@@ -8,7 +8,7 @@ Money Makers Paradise is a website that is made in hopes to raise interest for t
  <h3>Navigation bar</h3>
 <li>The navigation bar is featured on all four pages of the website. This include links to the home page, about page, services page and the gallery page. The navbar is identical on each page to prevent confusion for the user.</li>
 <li>The navbar is made for the user to navigate between the diferrent pages easily.</li>
-****Bifoga bild på Navbar****
+![Navbar](navbar.png)
 
 <h3>The background image</h3>
 <li>The background image on the index page is a black and white photo of coins. This image is matching with the theme of the page and makes for a nice background with the colors. </li>
@@ -46,6 +46,7 @@ Of course I had a lot of problems with missing one letter here and there, which 
 
 <h2>Validator Testing</h2>
 Lighthouse Test:
+***Bifoga bild på testet***
 <li>Good results in the lighthouse test using the chrom inspection</li>
 HTML:
 <li>There were no errors when testing the website using the official W3C validator.</li>
