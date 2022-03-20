@@ -45,6 +45,8 @@ There was also a bug where I could not open port 8000 to see my live progress in
 Of course I had a lot of problems with missing one letter here and there, which broke the page, but that's fixed with a quick overview of the code so those problems are no big deal.
 
 <h2>Validator Testing</h2>
+Lighthouse Test:
+<li>Good results in the lighthouse test using the chrom inspection</li>
 HTML:
 <li>There were no errors when testing the website using the official W3C validator.</li>
 ***Bifoga bild på inga error***
