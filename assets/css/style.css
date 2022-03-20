@@ -385,7 +385,9 @@ span{
 /* For screen sizes 814px and down*/
 @media screen and (max-width: 814px) {
     #right-box{
-        margin-bottom: 15%;
+        top: 500px;
+        position: relative;
+        margin-bottom: 50px;
     }
 }
 
