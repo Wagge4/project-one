@@ -8,7 +8,7 @@ Money Makers Paradise is a website that is made in hopes to raise interest for t
  <h3>Navigation bar</h3>
 <li>The navigation bar is featured on all four pages of the website. This include links to the home page, about page, services page and the gallery page. The navbar is identical on each page to prevent confusion for the user.</li>
 <li>The navbar is made for the user to navigate between the diferrent pages easily.</li>
-![Navbar](navbar.png)
+![Different responsive views on my page](assets/images/responsive.png)
 
 <h3>The background image</h3>
 <li>The background image on the index page is a black and white photo of coins. This image is matching with the theme of the page and makes for a nice background with the colors. </li>
@@ -43,6 +43,8 @@ There has been a lot of testing done to the website, and it is now working as in
 I faced a lot of bugs regarding GitHub. For example when I one day tried to push the save to GitHub and I got an error, and the solution to it was to restart the workspace. I thought that was a strange bug.
 There was also a bug where I could not open port 8000 to see my live progress in a browser, all it said was "Failed to expose". I called the tutor for help after trying for a long time to solve it myself, both by help from Google and from my Slack friends. It turned out that it was just GitPod playing games for some reason, and all I had to do was to add "8000" to my existing URL and it worked. That was also strange to me.
 Of course I had a lot of problems with missing one letter here and there, which broke the page, but that's fixed with a quick overview of the code so those problems are no big deal.
+
+I have tested, and tested, and tested and finally I got a good responsive design that works on all devices. The website looks good on both a small phone, a little bigger tablet, a laptop and a big computer screen.
 
 <h2>Validator Testing</h2>
 Lighthouse Test:
